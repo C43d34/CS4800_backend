@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+src = {editable = true, path = "./src"}
+openai = "*"
+pydantic = "==1.10.12"
+pypdf2 = "*"
+boto3 = "==1.28.68"
+urllib3 = "==1.26.18"
+
+[requires]
+python_version = "3.12"

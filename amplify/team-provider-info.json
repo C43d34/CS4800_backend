@@ -1,0 +1,207 @@
+{
+  "devrestore": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newapp-devrestore-00226-authRole",
+      "UnauthRoleArn": "arn:aws:iam::319163603467:role/amplify-newapp-devrestore-00226-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::319163603467:role/amplify-newapp-devrestore-00226-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+      "UnauthRoleName": "amplify-newapp-devrestore-00226-unauthRole",
+      "StackName": "amplify-newapp-devrestore-00226",
+      "StackId": "arn:aws:cloudformation:us-west-1:319163603467:stack/amplify-newapp-devrestore-00226/d43dfa70-7c7a-11ee-ad4a-02851bce3e43",
+      "AmplifyAppId": "d3mxfxvj02tj0v",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-newapp-devrestore-00226-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3mxfxvj02tj0v",
+          "type": "manual"
+        }
+      },
+      "storage": {
+        "newapp4e788f9b": {
+          "bucketName": "userresumes",
+          "region": "us-west-1"
+        }
+      },
+      "auth": {
+        "newapp": {}
+      },
+      "function": {
+        "handleDeleteResumeProfile": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleDeleteResumeProfile-4a6f43383431376f3451-build.zip"
+        },
+        "handleDeleteUser": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleDeleteUser-544b3868794f52725852-build.zip"
+        },
+        "handleGetResumeProfile": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleGetResumeProfile-62733955763738424347-build.zip"
+        },
+        "handleRegisterUser": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleRegisterUser-6e2b6b773349696e5337-build.zip"
+        },
+        "handleResumeUploadEvent": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleResumeUploadEvent-506b645735592b554442-build.zip"
+        },
+        "handleStoringScrapedJobs": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleStoringScrapedJobs-465a574a61624f443466-build.zip"
+        },
+        "handleUpdateResumeProfile": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleUpdateResumeProfile-38394e69395745695351-build.zip"
+        },
+        "handleUserLogin": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleUserLogin-432f2b6a7a4f634b6f69-build.zip"
+        },
+        "handleUserSaveJobListing": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleUserSaveJobListing-6630724463324e4b4b4b-build.zip"
+        },
+        "handleUserUnsaveJobListing": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleUserUnsaveJobListing-67543261785030756e71-build.zip"
+        },
+        "handleUserUpdate": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleUserUpdate-577a492f6d63414f6a50-build.zip"
+        },
+        "handleUserViewSavedJobListings": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/handleUserViewSavedJobListings-4c61683764644f31336d-build.zip"
+        },
+        "newapp732e55b5": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/newapp732e55b5-78594d77414574594951-build.zip"
+        },
+        "queryGoogleJobs": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/queryGoogleJobs-4b39676e69515735417a-build.zip"
+        },
+        "scrapeJobListings": {
+          "deploymentBucketName": "amplify-newapp-devrestore-00226-deployment",
+          "s3Key": "amplify-builds/scrapeJobListings-685a72576f6954557334-build.zip"
+        }
+      }
+    }
+  },
+  "devbackend": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newapp-devbackend-115212-authRole",
+      "UnauthRoleArn": "arn:aws:iam::319163603467:role/amplify-newapp-devbackend-115212-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::319163603467:role/amplify-newapp-devbackend-115212-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+      "UnauthRoleName": "amplify-newapp-devbackend-115212-unauthRole",
+      "StackName": "amplify-newapp-devbackend-115212",
+      "StackId": "arn:aws:cloudformation:us-west-1:319163603467:stack/amplify-newapp-devbackend-115212/f99af8d0-8194-11ee-b796-06190d03733d",
+      "AmplifyAppId": "d3mxfxvj02tj0v",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-newapp-devbackend-115212-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3mxfxvj02tj0v",
+          "type": "manual"
+        }
+      },
+      "storage": {
+        "newapp4e788f9b": {
+          "bucketName": "userresumes",
+          "region": "us-west-1"
+        }
+      },
+      "auth": {
+        "newapp": {}
+      },
+      "function": {
+        "handleDeleteResumeProfile": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleDeleteResumeProfile-6f68356a67394f673163-build.zip"
+        },
+        "handleDeleteUser": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleDeleteUser-4e7a4874483150336a77-build.zip"
+        },
+        "handleGetResumeProfile": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleGetResumeProfile-557777626f7164596b77-build.zip"
+        },
+        "handleRegisterUser": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleRegisterUser-6e2b6b773349696e5337-build.zip"
+        },
+        "handleResumeUploadEvent": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleResumeUploadEvent-31324e5843384a69644f-build.zip"
+        },
+        "handleStoringScrapedJobs": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleStoringScrapedJobs-617a4141552b4c6d7551-build.zip"
+        },
+        "handleUpdateResumeProfile": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleUpdateResumeProfile-33674f58703336475642-build.zip"
+        },
+        "handleUserLogin": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleUserLogin-564153706338744d7250-build.zip"
+        },
+        "handleUserSaveJobListing": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleUserSaveJobListing-65534d7072623566366d-build.zip"
+        },
+        "handleUserUnsaveJobListing": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleUserUnsaveJobListing-38566235326c49434250-build.zip"
+        },
+        "handleUserUpdate": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleUserUpdate-577a492f6d63414f6a50-build.zip"
+        },
+        "handleUserViewSavedJobListings": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleUserViewSavedJobListings-427655434f707a563446-build.zip"
+        },
+        "newapp732e55b5": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/newapp732e55b5-547147626a7157705876-build.zip"
+        },
+        "queryGoogleJobs": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/queryGoogleJobs-777175636539346d3865-build.zip"
+        },
+        "scrapeJobListings": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/scrapeJobListings-325170695a2f44724668-build.zip"
+        },
+        "resumeAI": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/resumeAI-54674269684d73466576-build.zip"
+        },
+        "addSeenJobs": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/addSeenJobs-614d3330465843464d58-build.zip"
+        },
+        "handleGetJob": {
+          "deploymentBucketName": "amplify-newapp-devbackend-115212-deployment",
+          "s3Key": "amplify-builds/handleGetJob-4a722b75645556667948-build.zip"
+        }
+      },
+      "api": {
+        "Jobs": {},
+        "Resumes": {},
+        "Users": {},
+        "newapi": {},
+        "testgoogleapi": {}
+      }
+    }
+  }
+}

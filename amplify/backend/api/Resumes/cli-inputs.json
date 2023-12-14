@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "paths": {
+    "/get": {
+      "name": "/get",
+      "lambdaFunction": "handleGetResumeProfile",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/delete": {
+      "name": "/delete",
+      "lambdaFunction": "handleDeleteResumeProfile",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/upload": {
+      "name": "/upload",
+      "lambdaFunction": "handleResumeUploadEvent",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/update": {
+      "name": "/update",
+      "lambdaFunction": "handleUpdateResumeProfile",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

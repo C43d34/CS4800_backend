@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "paths": {
+    "/login": {
+      "name": "/login",
+      "lambdaFunction": "handleUserLogin",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/register": {
+      "name": "/register",
+      "lambdaFunction": "handleRegisterUser",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/update": {
+      "name": "/update",
+      "lambdaFunction": "handleUserUpdate",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/delete": {
+      "name": "/delete",
+      "lambdaFunction": "handleDeleteUser",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/saveJob": {
+      "name": "/saveJob",
+      "lambdaFunction": "handleUserSaveJobListing",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/unsaveJob": {
+      "name": "/unsaveJob",
+      "lambdaFunction": "handleUserUnsaveJobListing",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/viewJob": {
+      "name": "/viewJob",
+      "lambdaFunction": "handleUserViewSavedJobListings",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/addSeenJob": {
+      "name": "/addSeenJob",
+      "lambdaFunction": "addSeenJobs",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/getSingleJob": {
+      "name": "/getSingleJob",
+      "lambdaFunction": "handleGetJob",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
